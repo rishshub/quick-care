@@ -1,7 +1,7 @@
 
   .header {
     overflow: hidden;
-    background-color: #6234b7;
+    background-color: #ffffff;
     padding: 20px 10px;
 
   }
@@ -17,6 +17,7 @@
     font-size: 28px;
     line-height: 25px;
     border-radius: 4px;
+    margin-left: 20px;
   }
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -27,21 +28,22 @@
   
   /* Change the background color on mouse-over */
   .header a:hover {
-    background-color: #ddd;
+    background-color: rgb(178, 94, 220);
     color: black;
+    border-radius: 30px;
   }
   
   /* Style the active/current link*/
   .header a.active {
-    background-color: dodgerblue;
+    background-color: rgb(162, 44, 221);
     color: white;
-    border-radius: 10px;
+    border-radius: 30px;
   }
   
   /* Float the link section to the right */
   .header-right {
     float: right;
-    /* margin-left: 20px; */
+    margin: 0px 50px ;
   }
   .header a{
     justify-content:  space-between;
@@ -58,3 +60,13 @@
       float: none;
     }
   }
+  .header input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  
